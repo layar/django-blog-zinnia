@@ -1,6 +1,6 @@
 """Author model for Zinnia"""
 from django.db import models
-from django.contrib.auth import get_user_model
+from django.contrib.auth.models import User
 from django.utils.encoding import python_2_unicode_compatible
 
 from zinnia.managers import entries_published
@@ -8,12 +8,11 @@ from zinnia.managers import EntryRelatedPublishedManager
 
 
 @python_2_unicode_compatible
-class Author(get_user_model()):
+class Author(User):
     """
     Proxy model around :class:`django.contrib.auth.models.get_user_model`.
     """
 
-    objects = get_user_model()._default_manager
     published = EntryRelatedPublishedManager()
 
     def entries_published(self):

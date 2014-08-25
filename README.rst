@@ -1,3 +1,7 @@
+We forked this project this project because of this issue:
+https://github.com/Fantomas42/django-blog-zinnia/issues/369
+
+
 ====================================================
 Django Blog Zinnia |travis-master| |coverage-master|
 ====================================================
