@@ -1,7 +1,7 @@
 We forked this project this project because of these issues:
 
-https://github.com/Fantomas42/django-blog-zinnia/issues/369
-https://github.com/Fantomas42/django-blog-zinnia/issues/233 (Fixed in newest Zinnia, newest Zinnia is not compat with Django 1.5 we're currently on)
+* https://github.com/Fantomas42/django-blog-zinnia/issues/369
+* https://github.com/Fantomas42/django-blog-zinnia/issues/233 (Fixed in newest Zinnia, newest Zinnia is not compat with Django 1.5 we're currently on)
 
 
 ====================================================
